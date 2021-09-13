@@ -1,5 +1,5 @@
 def merge_sort(arr):
-    if len(arr)<=1:
+    if len(arr)<=1:                #Base case
         return arr
     
     l=merge_sort(arr[:len(arr)//2])
